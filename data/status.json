@@ -1,1 +1,48 @@
+{
+  "page": {
+    "name": "Starcode Status",
+    "url": "https://status.starcode-bom.com"
+  },
+  "updatedAt": "2026-09-11T21:30:00+02:00",
+  "services": [
+    {
+      "name": {
+        "de": "Hauptwebsite",
+        "en": "Main website"
+      },
+      "type": "Website",
+      "status": "wartung",
+      "description": {
+        "de": "Alle Seiten werden normal ausgeliefert.",
+        "en": "All pages are being delivered normally."
+      }
+    },
+    {
+      "name": "Starcode API",
+      "type": "API",
+      "status": "störung",
+      "description": {
+        "de": "Einige Anfragen können langsamer als gewöhnlich sein.",
+        "en": "Some requests may be slower than usual."
+      }
+    },
+    {
+      "name": {
+        "de": "Dateiserver",
+        "en": "File server"
+      },
+      "type": "Server",
+      "status": "wartung",
+      "description": {
+        "de": "Geplante Wartungsarbeiten werden durchgeführt.",
+        "en": "Scheduled maintenance is in progress."
+      }
+    },
+    {
+      "name": "Cloudflare Edge",
+      "type": "Cloudflare",
+      "status": "in ordnung"
+    }
+  ]
+}
 
