@@ -11,7 +11,7 @@
         "en": "Main website"
       },
       "type": "Website",
-      "status": "wartung",
+      "status": "störung",
       "description": {
         "de": "Alle Seiten werden normal ausgeliefert.",
         "en": "All pages are being delivered normally."
@@ -20,7 +20,7 @@
     {
       "name": "Starcode API",
       "type": "API",
-      "status": "störung",
+      "status": "in ordnung",
       "description": {
         "de": "Einige Anfragen können langsamer als gewöhnlich sein.",
         "en": "Some requests may be slower than usual."
